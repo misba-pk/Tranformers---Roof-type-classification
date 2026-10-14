@@ -1,0 +1,17 @@
+# Local laptop env: data acquisition, feature engineering, EDA, small-scale model debugging (CPU only)
+geopandas
+osmnx
+pyrosm
+pyarrow
+shapely
+pandas
+numpy
+scikit-learn
+xgboost
+matplotlib
+jupyter
+torch_geometric
+mapclassify
+
+# Install torch separately (CPU build, keeps this file installable with plain `pip install -r`):
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu

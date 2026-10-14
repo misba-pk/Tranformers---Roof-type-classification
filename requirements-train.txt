@@ -1,0 +1,9 @@
+# Uni GPU env: only what's needed to load prepared data and train.
+# No geopandas/osmnx here on purpose — data prep never runs on the remote kernel.
+torch_geometric
+scikit-learn
+pandas
+numpy
+
+# Install torch separately, matching the CUDA version on the uni server (check with `nvidia-smi`):
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
